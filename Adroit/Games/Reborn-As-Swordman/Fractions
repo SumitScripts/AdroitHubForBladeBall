@@ -1,0 +1,548 @@
+-- Decompiled with Arceus X simple decompiler.
+-- Decompiling: ReplicatedStorage.Config.TrainConfig -> Instance (userdata)
+
+local Trainers = {
+	["Worlds"] = { 	-- string, table
+		["World003"] = { 	-- string, table
+			[1] = "TrainPower015", 	-- number, string
+			[2] = "TrainPower016", 	-- number, string
+			[3] = "TrainPower017", 	-- number, string
+			[4] = "TrainPower018", 	-- number, string
+			[5] = "TrainPower019", 	-- number, string
+			[6] = "TrainPower020", 	-- number, string
+			[7] = "TrainPower021"  	-- number, string
+		},
+
+		["World009"] = { 	-- string, table
+			[1] = "TrainPower057", 	-- number, string
+			[2] = "TrainPower058", 	-- number, string
+			[3] = "TrainPower059", 	-- number, string
+			[4] = "TrainPower060", 	-- number, string
+			[5] = "TrainPower061", 	-- number, string
+			[6] = "TrainPower062", 	-- number, string
+			[7] = "TrainPower063"  	-- number, string
+		},
+
+		["World001"] = { 	-- string, table
+			[1] = "TrainPower001", 	-- number, string
+			[2] = "TrainPower002", 	-- number, string
+			[3] = "TrainPower003", 	-- number, string
+			[4] = "TrainPower004", 	-- number, string
+			[5] = "TrainPower005", 	-- number, string
+			[6] = "TrainPower006", 	-- number, string
+			[7] = "TrainPower007"  	-- number, string
+		},
+
+		["World002"] = { 	-- string, table
+			[1] = "TrainPower008", 	-- number, string
+			[2] = "TrainPower009", 	-- number, string
+			[3] = "TrainPower010", 	-- number, string
+			[4] = "TrainPower011", 	-- number, string
+			[5] = "TrainPower012", 	-- number, string
+			[6] = "TrainPower013", 	-- number, string
+			[7] = "TrainPower014"  	-- number, string
+		},
+
+		["World006"] = { 	-- string, table
+			[1] = "TrainPower036", 	-- number, string
+			[2] = "TrainPower037", 	-- number, string
+			[3] = "TrainPower038", 	-- number, string
+			[4] = "TrainPower039", 	-- number, string
+			[5] = "TrainPower040", 	-- number, string
+			[6] = "TrainPower041", 	-- number, string
+			[7] = "TrainPower042"  	-- number, string
+		},
+
+		["World008"] = { 	-- string, table
+			[1] = "TrainPower050", 	-- number, string
+			[2] = "TrainPower051", 	-- number, string
+			[3] = "TrainPower052", 	-- number, string
+			[4] = "TrainPower053", 	-- number, string
+			[5] = "TrainPower054", 	-- number, string
+			[6] = "TrainPower055", 	-- number, string
+			[7] = "TrainPower056"  	-- number, string
+		},
+
+		["World004"] = { 	-- string, table
+			[1] = "TrainPower022", 	-- number, string
+			[2] = "TrainPower023", 	-- number, string
+			[3] = "TrainPower024", 	-- number, string
+			[4] = "TrainPower025", 	-- number, string
+			[5] = "TrainPower026", 	-- number, string
+			[6] = "TrainPower027", 	-- number, string
+			[7] = "TrainPower028"  	-- number, string
+		},
+
+		["World007"] = { 	-- string, table
+			[1] = "TrainPower043", 	-- number, string
+			[2] = "TrainPower044", 	-- number, string
+			[3] = "TrainPower045", 	-- number, string
+			[4] = "TrainPower046", 	-- number, string
+			[5] = "TrainPower047", 	-- number, string
+			[6] = "TrainPower048", 	-- number, string
+			[7] = "TrainPower049"  	-- number, string
+		},
+
+		["World005"] = { 	-- string, table
+			[1] = "TrainPower029", 	-- number, string
+			[2] = "TrainPower030", 	-- number, string
+			[3] = "TrainPower031", 	-- number, string
+			[4] = "TrainPower032", 	-- number, string
+			[5] = "TrainPower033", 	-- number, string
+			[6] = "TrainPower034", 	-- number, string
+			[7] = "TrainPower035"  	-- number, string
+		} 
+	},
+
+	["Power"] = { 	-- string, table
+		["TrainPower007"] = { 	-- string, table
+			["Id"] = "TrainPower007", 	-- string, string
+			["Type"] = 2, 	-- string, number
+			["Power"] = 20, 	-- string, number
+			["PowerNeed"] = 0  	-- string, number
+		},
+
+		["TrainPower031"] = { 	-- string, table
+			["Id"] = "TrainPower031", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 10454, 	-- string, number
+			["PowerNeed"] = 99700000000  	-- string, number
+		},
+
+		["TrainPower060"] = { 	-- string, table
+			["Id"] = "TrainPower060", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 4242316, 	-- string, number
+			["PowerNeed"] = 20884100000000000  	-- string, number
+		},
+
+		["TrainPower062"] = { 	-- string, table
+			["Id"] = "TrainPower062", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 7445266, 	-- string, number
+			["PowerNeed"] = 73738600000000000  	-- string, number
+		},
+
+		["TrainPower037"] = { 	-- string, table
+			["Id"] = "TrainPower037", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 36373, 	-- string, number
+			["PowerNeed"] = 959647000000  	-- string, number
+		},
+
+		["TrainPower048"] = { 	-- string, table
+			["Id"] = "TrainPower048", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 413219, 	-- string, number
+			["PowerNeed"] = 121477000000000  	-- string, number
+		},
+
+		["TrainPower061"] = { 	-- string, table
+			["Id"] = "TrainPower061", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 5515012, 	-- string, number
+			["PowerNeed"] = 41929000000000000  	-- string, number
+		},
+
+		["TrainPower063"] = { 	-- string, table
+			["Id"] = "TrainPower063", 	-- string, string
+			["Type"] = 2, 	-- string, number
+			["Power"] = 5515012, 	-- string, number
+			["PowerNeed"] = 0  	-- string, number
+		},
+
+		["TrainPower009"] = { 	-- string, table
+			["Id"] = "TrainPower009", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 120, 	-- string, number
+			["PowerNeed"] = 362000  	-- string, number
+		},
+
+		["TrainPower014"] = { 	-- string, table
+			["Id"] = "TrainPower014", 	-- string, string
+			["Type"] = 2, 	-- string, number
+			["Power"] = 230, 	-- string, number
+			["PowerNeed"] = 0  	-- string, number
+		},
+
+		["TrainPower052"] = { 	-- string, table
+			["Id"] = "TrainPower052", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 799545, 	-- string, number
+			["PowerNeed"] = 392930000000000  	-- string, number
+		},
+
+		["TrainPower051"] = { 	-- string, table
+			["Id"] = "TrainPower051", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 655365, 	-- string, number
+			["PowerNeed"] = 258290000000000  	-- string, number
+		},
+
+		["TrainPower002"] = { 	-- string, table
+			["Id"] = "TrainPower002", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 3, 	-- string, number
+			["PowerNeed"] = 200  	-- string, number
+		},
+
+		["TrainPower015"] = { 	-- string, table
+			["Id"] = "TrainPower015", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 390, 	-- string, number
+			["PowerNeed"] = 1  	-- string, number
+		},
+
+		["TrainPower011"] = { 	-- string, table
+			["Id"] = "TrainPower011", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 190, 	-- string, number
+			["PowerNeed"] = 1990000  	-- string, number
+		},
+
+		["TrainPower030"] = { 	-- string, table
+			["Id"] = "TrainPower030", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 8569, 	-- string, number
+			["PowerNeed"] = 58500000000  	-- string, number
+		},
+
+		["TrainPower001"] = { 	-- string, table
+			["Id"] = "TrainPower001", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 1, 	-- string, number
+			["PowerNeed"] = 1  	-- string, number
+		},
+
+		["TrainPower026"] = { 	-- string, table
+			["Id"] = "TrainPower026", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 4002, 	-- string, number
+			["PowerNeed"] = 7210000000  	-- string, number
+		},
+
+		["TrainPower059"] = { 	-- string, table
+			["Id"] = "TrainPower059", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 3393853, 	-- string, number
+			["PowerNeed"] = 9325100000000000  	-- string, number
+		},
+
+		["TrainPower050"] = { 	-- string, table
+			["Id"] = "TrainPower050", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 537184, 	-- string, number
+			["PowerNeed"] = 1  	-- string, number
+		},
+
+		["TrainPower043"] = { 	-- string, table
+			["Id"] = "TrainPower043", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 126553, 	-- string, number
+			["PowerNeed"] = 1  	-- string, number
+		},
+
+		["TrainPower057"] = { 	-- string, table
+			["Id"] = "TrainPower057", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 2280202, 	-- string, number
+			["PowerNeed"] = 1  	-- string, number
+		},
+
+		["TrainPower056"] = { 	-- string, table
+			["Id"] = "TrainPower056", 	-- string, string
+			["Type"] = 2, 	-- string, number
+			["Power"] = 1299261, 	-- string, number
+			["PowerNeed"] = 0  	-- string, number
+		},
+
+		["TrainPower010"] = { 	-- string, table
+			["Id"] = "TrainPower010", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 155, 	-- string, number
+			["PowerNeed"] = 819000  	-- string, number
+		},
+
+		["TrainPower027"] = { 	-- string, table
+			["Id"] = "TrainPower027", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 5403, 	-- string, number
+			["PowerNeed"] = 14700000000  	-- string, number
+		},
+
+		["TrainPower055"] = { 	-- string, table
+			["Id"] = "TrainPower055", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 1754002, 	-- string, number
+			["PowerNeed"] = 2656610000000000  	-- string, number
+		},
+
+		["TrainPower021"] = { 	-- string, table
+			["Id"] = "TrainPower021", 	-- string, string
+			["Type"] = 2, 	-- string, number
+			["Power"] = 943, 	-- string, number
+			["PowerNeed"] = 0  	-- string, number
+		},
+
+		["TrainPower018"] = { 	-- string, table
+			["Id"] = "TrainPower018", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 725, 	-- string, number
+			["PowerNeed"] = 84300000  	-- string, number
+		},
+
+		["TrainPower029"] = { 	-- string, table
+			["Id"] = "TrainPower029", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 7023, 	-- string, number
+			["PowerNeed"] = 1  	-- string, number
+		},
+
+		["TrainPower022"] = { 	-- string, table
+			["Id"] = "TrainPower022", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 1654, 	-- string, number
+			["PowerNeed"] = 1  	-- string, number
+		},
+
+		["TrainPower028"] = { 	-- string, table
+			["Id"] = "TrainPower028", 	-- string, string
+			["Type"] = 2, 	-- string, number
+			["Power"] = 4002, 	-- string, number
+			["PowerNeed"] = 0  	-- string, number
+		},
+
+		["TrainPower033"] = { 	-- string, table
+			["Id"] = "TrainPower033", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 16988, 	-- string, number
+			["PowerNeed"] = 255000000000  	-- string, number
+		},
+
+		["TrainPower053"] = { 	-- string, table
+			["Id"] = "TrainPower053", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 999431, 	-- string, number
+			["PowerNeed"] = 687950000000000  	-- string, number
+		},
+
+		["TrainPower020"] = { 	-- string, table
+			["Id"] = "TrainPower020", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 1273, 	-- string, number
+			["PowerNeed"] = 564000000  	-- string, number
+		},
+
+		["TrainPower058"] = { 	-- string, table
+			["Id"] = "TrainPower058", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 2781847, 	-- string, number
+			["PowerNeed"] = 6113300000000000  	-- string, number
+		},
+
+		["TrainPower047"] = { 	-- string, table
+			["Id"] = "TrainPower047", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 306088, 	-- string, number
+			["PowerNeed"] = 65228100000000  	-- string, number
+		},
+
+		["TrainPower049"] = { 	-- string, table
+			["Id"] = "TrainPower049", 	-- string, string
+			["Type"] = 2, 	-- string, number
+			["Power"] = 306088, 	-- string, number
+			["PowerNeed"] = 0  	-- string, number
+		},
+
+		["TrainPower023"] = { 	-- string, table
+			["Id"] = "TrainPower023", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 2018, 	-- string, number
+			["PowerNeed"] = 1100000000  	-- string, number
+		},
+
+		["TrainPower046"] = { 	-- string, table
+			["Id"] = "TrainPower046", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 235452, 	-- string, number
+			["PowerNeed"] = 41947300000000  	-- string, number
+		},
+
+		["TrainPower017"] = { 	-- string, table
+			["Id"] = "TrainPower017", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 580, 	-- string, number
+			["PowerNeed"] = 39000000  	-- string, number
+		},
+
+		["TrainPower016"] = { 	-- string, table
+			["Id"] = "TrainPower016", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 475, 	-- string, number
+			["PowerNeed"] = 18600000  	-- string, number
+		},
+
+		["TrainPower041"] = { 	-- string, table
+			["Id"] = "TrainPower041", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 97349, 	-- string, number
+			["PowerNeed"] = 6943740000000  	-- string, number
+		},
+
+		["TrainPower036"] = { 	-- string, table
+			["Id"] = "TrainPower036", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 29814, 	-- string, number
+			["PowerNeed"] = 1  	-- string, number
+		},
+
+		["TrainPower044"] = { 	-- string, table
+			["Id"] = "TrainPower044", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 154394, 	-- string, number
+			["PowerNeed"] = 14618200000000  	-- string, number
+		},
+
+		["TrainPower042"] = { 	-- string, table
+			["Id"] = "TrainPower042", 	-- string, string
+			["Type"] = 2, 	-- string, number
+			["Power"] = 72110, 	-- string, number
+			["PowerNeed"] = 0  	-- string, number
+		},
+
+		["TrainPower032"] = { 	-- string, table
+			["Id"] = "TrainPower032", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 13067, 	-- string, number
+			["PowerNeed"] = 136000000000  	-- string, number
+		},
+
+		["TrainPower008"] = { 	-- string, table
+			["Id"] = "TrainPower008", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 74, 	-- string, number
+			["PowerNeed"] = 1  	-- string, number
+		},
+
+		["TrainPower040"] = { 	-- string, table
+			["Id"] = "TrainPower040", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 72110, 	-- string, number
+			["PowerNeed"] = 3871500000000  	-- string, number
+		},
+
+		["TrainPower005"] = { 	-- string, table
+			["Id"] = "TrainPower005", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 20, 	-- string, number
+			["PowerNeed"] = 28000  	-- string, number
+		},
+
+		["TrainPower006"] = { 	-- string, table
+			["Id"] = "TrainPower006", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 35, 	-- string, number
+			["PowerNeed"] = 76000  	-- string, number
+		},
+
+		["TrainPower039"] = { 	-- string, table
+			["Id"] = "TrainPower039", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 55469, 	-- string, number
+			["PowerNeed"] = 2588800000000  	-- string, number
+		},
+
+		["TrainPower025"] = { 	-- string, table
+			["Id"] = "TrainPower025", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 3078, 	-- string, number
+			["PowerNeed"] = 3660000000  	-- string, number
+		},
+
+		["TrainPower038"] = { 	-- string, table
+			["Id"] = "TrainPower038", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 44375, 	-- string, number
+			["PowerNeed"] = 1551560000000  	-- string, number
+		},
+
+		["TrainPower003"] = { 	-- string, table
+			["Id"] = "TrainPower003", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 5, 	-- string, number
+			["PowerNeed"] = 3000  	-- string, number
+		},
+
+		["TrainPower035"] = { 	-- string, table
+			["Id"] = "TrainPower035", 	-- string, string
+			["Type"] = 2, 	-- string, number
+			["Power"] = 16988, 	-- string, number
+			["PowerNeed"] = 0  	-- string, number
+		},
+
+		["TrainPower034"] = { 	-- string, table
+			["Id"] = "TrainPower034", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 22934, 	-- string, number
+			["PowerNeed"] = 616000000000  	-- string, number
+		},
+
+		["TrainPower012"] = { 	-- string, table
+			["Id"] = "TrainPower012", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 230, 	-- string, number
+			["PowerNeed"] = 3980000  	-- string, number
+		},
+
+		["TrainPower054"] = { 	-- string, table
+			["Id"] = "TrainPower054", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 1299261, 	-- string, number
+			["PowerNeed"] = 1384420000000000  	-- string, number
+		},
+
+		["TrainPower019"] = { 	-- string, table
+			["Id"] = "TrainPower019", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 943, 	-- string, number
+			["PowerNeed"] = 178000000  	-- string, number
+		},
+
+		["TrainPower024"] = { 	-- string, table
+			["Id"] = "TrainPower024", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 2463, 	-- string, number
+			["PowerNeed"] = 1910000000  	-- string, number
+		},
+
+		["TrainPower013"] = { 	-- string, table
+			["Id"] = "TrainPower013", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 300, 	-- string, number
+			["PowerNeed"] = 9100000  	-- string, number
+		},
+
+		["TrainPower045"] = { 	-- string, table
+			["Id"] = "TrainPower045", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 188361, 	-- string, number
+			["PowerNeed"] = 25414800000000  	-- string, number
+		},
+
+		["TrainPower004"] = { 	-- string, table
+			["Id"] = "TrainPower004", 	-- string, string
+			["Type"] = 1, 	-- string, number
+			["Power"] = 9, 	-- string, number
+			["PowerNeed"] = 7500  	-- string, number
+		} 
+	},
+
+	["VIPIcon"] = "rbxassetid://17251396115", 	-- string, string
+	["Icon"] = "rbxassetid://17452642539", 	-- string, string
+	["TrainType"] = { 	-- string, table
+		["VIP"] = 2, 	-- string, number
+		["Common"] = 1  	-- string, number
+	} 
+}
+
+return Trainers
